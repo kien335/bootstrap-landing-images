@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Bootstrap</title>
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">TechNova</a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Mở menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            Giới thiệu
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">
+                            Tính năng
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            Liên hệ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner / Hero -->
+    <section class="hero text-white text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">
+                Giải Pháp Công Nghệ Hiện Đại
+            </h1>
+            <p class="lead">
+                Đồng hành cùng doanh nghiệp
+                trong hành trình chuyển đổi số.
+            </p>
+            <a href="#about" class="btn btn-primary btn-lg">
+                Khám phá ngay
+            </a>
+        </div>
+    </section>
+
+    <!-- Giới thiệu -->
+    <section id="about" class="container py-5">
+        <div class="row align-items-center g-4">
+
+            <div class="col-md-6">
+                <img
+                    src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=900&q=80"
+                    class="img-fluid rounded shadow"
+                    alt="Nhóm nhân viên làm việc cùng nhau">
+            </div>
+
+            <div class="col-md-6">
+                <h2>Về Chúng Tôi</h2>
+                <p>
+                    TechNova cung cấp các giải pháp công nghệ
+                    giúp doanh nghiệp phát triển trong
+                    thời đại số.
+                </p>
+                <p>
+                    Chúng tôi chuyên thiết kế website,
+                    phát triển phần mềm và tối ưu
+                    trải nghiệm người dùng.
+                </p>
+                <a href="#features" class="btn btn-primary">
+                    Xem thêm
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Tính năng -->
+    <section id="features" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">
+                Tính Năng Nổi Bật
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card h-100 text-center p-4">
+                        <i class="bi bi-laptop feature-icon"></i>
+                        <h4>Thiết Kế Website</h4>
+                        <p>
+                            Giao diện hiện đại, đẹp mắt
+                            và thân thiện với người dùng.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 text-center p-4">
+                        <i class="bi bi-phone feature-icon"></i>
+                        <h4>Responsive</h4>
+                        <p>
+                            Website hiển thị tốt trên
+                            máy tính, tablet và điện thoại.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 text-center p-4">
+                        <i class="bi bi-shield-check feature-icon"></i>
+                        <h4>Bảo Mật</h4>
+                        <p>
+                            Chú trọng bảo mật và
+                            an toàn thông tin người dùng.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="contact"
+        class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h2>Sẵn Sàng Bắt Đầu?</h2>
+            <p>
+                Khám phá những giải pháp công nghệ
+                phù hợp với doanh nghiệp của bạn.
+            </p>
+            <a href="#about" class="btn btn-light btn-lg">
+                Tìm hiểu thêm
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">
+            &copy; 2026 TechNova. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
